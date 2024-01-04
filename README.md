@@ -52,7 +52,7 @@ Checking for equal variance (homoscedasticity) assumption
 
 ![homoscedastacity graphs ](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/Homosc.jpg)
 
-Here is the [presentation.pdf](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/King_County_House_presentation.pdf)link
+Here is the [presentation.pdf](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/King_County_House_presentation.pdf) link where we summarized our analysis 
 
  ## Conclusion 
  
