@@ -52,6 +52,8 @@ Checking for equal variance (homoscedasticity) assumption
 
 ![homoscedastacity graphs ](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/Homosc.jpg)
 
+Here is the [presentation.pdf](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/King_County_House_presentation.pdf)link
+
  ## Conclusion 
  
  For each increase of 1% in sqft_living, we see an associated increase of about 0.84% in price, therefore we conclude square feet living has an a positive effect on price
