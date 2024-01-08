@@ -1,6 +1,6 @@
 # King County Houses Data Analysis 
 
-![King_County_houses](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/imagereader.jpg)
+![King_County_houses](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/imagereader.jpg)
 
 
 
@@ -14,45 +14,45 @@ The real estate agency aims to provide homeowners with strategic advice on optim
 
 ### The Data
 
-This project uses the King County House Sales dataset, which can be found [King County Dataset](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/data/kc_house_data.csv) with the description of the column names [columns description](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/data/column_names.md)
+This project uses the King County House Sales dataset, which can be found [King County Dataset](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/data/kc_house_data.csv) with the description of the column names [columns description](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/data/column_names.md)
 
 ### Data Understanding and Analysis 
 ### Checking for relationship between price and independent variables
 we can see that sqft_ living, grade, sqft_above have the highest correlation with the price.  
-![the relationship between price and all other features](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/data_.jpg)
+![the relationship between price and all other features](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/data_.jpg)
 ### Simple Linear Model
 ### Model 1
 Now that we had sqft_living, it seemed to be a good predictor because it had the most linear relationship with price. We adopted it as our basis. For that, we created a simple model based on this.Our model is statistically significant overall, and explains about 49.3% of the variance in price.
-![Model 1](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/simple_model.jpg)
+![Model 1](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/simple_model.jpg)
 
 Visualizing the simple linear model. We seae that 
 
-![residual graphs](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/base_line_living.jpg)
+![residual graphs](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/base_line_living.jpg)
 ### Multiple Linear Regression Mode
 ### model 2.
-![Model 2](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/reg_mod2.jpg)
+![Model 2](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/reg_mod2.jpg)
 
 from the graph below we compare the relationship between price and the selected variables 
 
-![comparing price and selected variables](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/house_vs_interest.jpg)
+![comparing price and selected variables](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/house_vs_interest.jpg)
 
 After digging deeper we found that degree of condition matters with the best giving high value on prices 
 
-![condition against price](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/House_condition.jpg)
+![condition against price](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/House_condition.jpg)
 
 ### model 3.
-![Model 3](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/log_model3.jpg)
+![Model 3](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/log_model3.jpg)
 
 Multiple Linear Regression Visualization
 
-![residual bathrooms](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/log_reg_mod.jpg)
-![residual bedrooms](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/log_reg2.jpg)
+![residual bathrooms](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/log_reg_mod.jpg)
+![residual bedrooms](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/log_reg2.jpg)
 
 Checking for equal variance (homoscedasticity) assumption
 
-![homoscedastacity graphs ](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/images/Homosc.jpg)
+![homoscedastacity graphs ](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/images/Homosc.jpg)
 
-Here is the [presentation.pdf](https://github.com/JohnNkakuyia/dsc-phase-2-project-v2-3/blob/main/King_County_House_presentation.pdf) link where we summarized our analysis 
+Here is the [presentation.pdf](https://github.com/eamboga/dsc-phase-2-project-v2-3/blob/main/King_County_House_presentation.pdf) link where we summarized our analysis 
 
  ## Conclusion 
  
